@@ -7,6 +7,13 @@ The rules or conditions I used are :<br/>
 
 *    If the identified entity is a person and the 4 parts of speach identified after that entity are "PUNCT , PRON,AUX,PRON". <br/>
 My solution will not perform well on transcripts which do not satisfy the rules stated above.
+<br/><br/>
+## Note
+AUX => auxiliary. example is, has <br/>
+PRON => pronoun. example I, you, he, she, <br/>
+NOUN => noun. example cat, tree,boy <br/>
+PUNCT => punctuation. example ., (, ), ? <br/>
+
 
 
 b) My solution will not work well on transcripts which have names of persons which are not in the knowledgebase of the spacy model I used in my implementation. <br/>
